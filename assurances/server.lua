@@ -12,7 +12,7 @@ end)
 
 
 AddEventHandler("playerDropped", function(reason)
-
+	local _source = source
 	players[_source] = nil
 
 end)
